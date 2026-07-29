@@ -60,6 +60,37 @@
 - **Build Tool:** Vite
 
 ---
+# 🏗️ System Architecture
+
+## Overview
+
+ORBITS is a scroll-driven 3D web experience built with React, Vite, Three.js, and React Three Fiber. The application is organized into independent modules responsible for rendering scenes, handling UI, managing scroll state, and generating procedural audio.
+
+```
+                User
+                  │
+                  ▼
+          Browser (React App)
+                  │
+                  ▼
+        React + React Three Fiber
+                  │
+     ┌────────────┼─────────────┐
+     │            │             │
+     ▼            ▼             ▼
+ Scroll State   3D Scene      UI Layer
+ Management     Rendering      Overlay
+     │            │             │
+     ▼            ▼             ▼
+  Camera Rig   Acts (1–4)   Header / Text
+     │            │             │
+     └────────────┼─────────────┘
+                  ▼
+          Post Processing
+                  │
+                  ▼
+           Browser Canvas
+```
 
 ## 📂 Project Structure
 
