@@ -20,11 +20,9 @@
 
 🌍 **Website:** https://orbits-3d.netlify.app/
 
-💻 **GitHub:** https://github.com/Siteshcodes/Orbits
-
 ---
 
-## 🌌 Overview
+##  Overview
 
 **ORBITS** is a web-based 3D scrollytelling experience. As you scroll, the camera seamlessly moves through **5 interactive acts** of celestial physics, visualizing the mathematical principles that govern planetary motion and spacecraft trajectories.
 
@@ -36,19 +34,19 @@
 
 ---
 
-## ✨ Features & Highlights
+##  Features & Highlights
 
-- 🪐 Interactive scroll-driven 3D storytelling
-- 📊 Live orbital telemetry gauge
-- 🚀 Escape velocity simulation
-- 🌠 Multi-layer animated starfield
-- 🎵 Procedural Web Audio API sound engine
-- ✨ HDR bloom and post-processing
-- 📱 Responsive desktop and mobile experience
+-  Interactive scroll-driven 3D storytelling
+-  Live orbital telemetry gauge
+-  Escape velocity simulation
+-  Multi-layer animated starfield
+-  Procedural Web Audio API sound engine
+-  HDR bloom and post-processing
+-  Responsive desktop and mobile experience
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Framework:** React
 - **3D Engine:** Three.js
@@ -60,7 +58,7 @@
 - **Build Tool:** Vite
 
 ---
-# 🏗️ System Architecture
+#  System Architecture
 
 ## Overview
 
@@ -92,7 +90,7 @@ ORBITS is a scroll-driven 3D web experience built with React, Vite, Three.js, an
            Browser Canvas
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Orbits
@@ -140,7 +138,7 @@ Orbits
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
