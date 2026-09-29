@@ -164,6 +164,9 @@ npm run build
 ```
 
 ---
+## Development
+
+This project is actively maintained.
 
 ## 📜 License
 
